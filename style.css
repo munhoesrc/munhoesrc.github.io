@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand::after {
+  content: "|";
+  opacity: 1;
+  margin-left: 5px;
+  display: inline-block;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+.navbar,
+.navbar-expand-md,
+.navbar-light {
+  background-color: #2c3e50;
+  font-weight: bold;
+}
+
+.navbar-brand,
+.nav-link {
+  color: white !important;
+}
+
+.container-navbar {
+  justify-content: flex-end;
+}
+
+.remove {
+  list-style-type: none;
+  padding: 0;
+}
+
+.stack {
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.fa-solid,
+.fa-code {
+  color: white;
+  margin-right: 2px;
+}
+
+.foto-perfil {
+  height: 100%;
+  max-width: auto;
+  border-radius: 50%;
+}
+
+.container-first-section a {
+  color: white !important;
+}
+
+.color-white {
+  color: white !important;
+  text-transform: uppercase;
+}
+
+.icones {
+  padding-left: 5px;
+}
+
+.titulosBrancos {
+  text-decoration: underline;
+  text-underline-position: under;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+}
+
+.titulosVerdes {
+  text-decoration: underline;
+  text-underline-position: under;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #18bc9c;
+}
+
+.paragrafoBrancos,
+.lead {
+  color: white !important;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: black !important;
+}
+
+.corPrimaria {
+  background-color: #18bc9c;
+}
+
+.itemMenu {
+  color: white;
+}
+
+.container-fluid {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  margin-bottom: 0;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  background-color: #2c3e50;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+  color: white !important;
+}
+
+#btn-back-to-top {
+  position: fixed;
+  bottom: 55px;
+  right: 20px;
+  display: none;
+  border-radius: 30%;
+  background-color: #18bc9b80;
+  border: 1px solid #2c3e507e;
+  color: #2c3e507e;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar, .navbar-expand-md, .navbar-light {
+    padding: 2%;
+  }
+}
