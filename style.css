@@ -49,7 +49,7 @@ body {
 }
 
 .stack {
-  margin-left: 50px;
+  margin-left: 30px;
   padding: 20px;
 }
 
@@ -67,6 +67,12 @@ body {
 
 .container-first-section a {
   color: white !important;
+}
+
+.container-stack {
+  padding: 20px 20px;  
+  justify-content: space-between;
+  /* border: 1px solid black; */
 }
 
 .color-white {
@@ -135,6 +141,7 @@ footer p {
   padding-bottom: 15px;
   margin: 0;
   color: white !important;
+  /* border: 1px solid black; */
 }
 
 #btn-back-to-top {
@@ -151,5 +158,13 @@ footer p {
 @media screen and (max-width: 480px) {
   .navbar, .navbar-expand-md, .navbar-light {
     padding: 2%;
+  }
+
+  .container-stack {
+    margin-left: 20px;
+  }
+
+  footer {
+    font-size: 13px;
   }
 }
